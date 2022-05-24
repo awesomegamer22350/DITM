@@ -1,12 +1,16 @@
 body {
 	margin: 0;
 	font-family:Arial, Helvetica, sans-serif;
-}
+	background-color: skyblue;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+} /*For all bodies*/
 
 .topnav {
 	background-color: #222a66;
 	overflow: hidden;
-}
+} /*Navigation Bar backround color*/
 
 .topnav a {
 	float: left;
@@ -15,14 +19,20 @@ body {
 	padding: 10px 20px;
 	text-decoration: none;
 	font-size: 17px;
-}
+} /*Text Color when not hover*/
 
 .topnav a:hover {
 	background-color: #e8e8e8;
 	color: black;
-}
+} /*Text color when hover*/
 
 .topnav a.active {
 	background-color: #04AA6D;
 	color: white;
-}
+} /*Text color on page user is on*/
+
+.padder {
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-right: 40px;
+} /*Padding all sides*/
