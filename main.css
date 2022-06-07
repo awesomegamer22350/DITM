@@ -36,3 +36,13 @@ body {
 	padding-top: 20px;
 	padding-right: 40px;
 } /*Padding all sides*/
+
+.flexbox {				/*menu + content*/
+	display: flex;
+	align-self: center;
+	max-width: 1337px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	flex-wrap: wrap;
+}
